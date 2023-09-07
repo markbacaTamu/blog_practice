@@ -1,21 +1,3 @@
-Last login: Thu Sep  7 08:46:37 on ttys001
-➜  ~ cd Desktop/CSCE431/blog_practice
-➜  blog_practice git:(test) ls
-Gemfile           app.json          lib               spec_notused
-Gemfile.lock      babel.config.js   log               storage
-Procfile          bin               package.json      tmp
-README.md         config            postcss.config.js vendor
-Rakefile          config.ru         public            yarn.lock
-app               db                spec
-➜  blog_practice git:(test) cd .github
-➜  .github git:(test) ls
-workflows
-➜  .github git:(test) cat workflows
-cat: workflows: Is a directory
-➜  .github git:(test) cd workflows 
-➜  workflows git:(test) ls
-testcodecoverage.yml
-➜  workflows git:(test) cat testcodecoverage.yml 
 name: Test
 
 on:
